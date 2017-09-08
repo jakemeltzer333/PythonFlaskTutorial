@@ -153,6 +153,8 @@ for key, val in teachers.items():
     print(k, v)
 # => Ari 24, Drew 29, John 32    
 ```
+
+![Dictionary](http://pad2.whstatic.com/images/thumb/d/d4/Use-a-Dictionary-Step-1.jpg/aid27308-v4-728px-Use-a-Dictionary-Step-1.jpg)
 ### Functions
 
 Functions in Python are written like a mix of Javascript and Ruby syntax with Python's signature colon at the end.
