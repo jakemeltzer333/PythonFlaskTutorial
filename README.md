@@ -120,9 +120,7 @@ else:
 We can use our favorite Fizzbuzz `if` statement to demonstrate it even further and show how `else if` is written in Python:
 
 ```python
-if x % 3 == 0 && x % 5 == 0
-    print 'FizzBuzz'
-elif x % 3 == 0
+if x % 3 == 0
     print 'Fizz'    
 elif x % 5 == 0
     print 'Buzz'
@@ -130,5 +128,39 @@ else
     print x    
 ```
 
+#### Dictionaries
+
+Dictionaries are another Python data type that act very much like Javascript objects. They accept key value pairs and are even written in the same fashion, here with a key `name` and a value `age`:
+
+```python
+teachers = {'Ari': 24, 'Drew': 29, 'John': 32}
+```
+
+You can also build a dictionary from scratch.
+
+```python
+dict(Ari=24, Drew=29, John=32)
+```
+
+Looping through dictionaries is also really intuitive. There's even a built-in `.items()` method that Python gives you for free.
+
+```python
+teachers = {'Ari': 24, 'Drew': 29, 'John': 32}
+
+for key, val in teachers.items():
+    print(k, v)
+# => Ari 24, Drew 29, John 32    
+```
 ### Functions
 
+Functions in Python are written like a mix of Javascript and Ruby syntax with Python's signature colon at the end.
+
+```python
+def say_hi(name):
+    print (f'Hey {name}!')
+
+sayHi('Jake')
+# => Hey Jake!    
+```
+
+Notice the `f` in front of the string? That's how Python does string interpolation.
