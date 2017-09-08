@@ -18,10 +18,34 @@ Python uses data types that are pretty much identical to Javascript: numbers, st
 
 ```python
 teachers = ['Ari', 'Dom', 'Drew', 'J', 'John', 'Ramsey']
-len(teachers) -> # 6
+len(teachers)  # => 6
 ```
 
-That looks ** A LOT ** like a Javascript array!
+That looks **A LOT** like a Javascript array!
+
+Python also has two types of numbers: _integers_ and _floats_. Integers are whole numbers while floats are numbers with decimals.
+
+For example:
+```python
+5 * 5 # => 25
+5 + 5 # => 10
+10 - 5 # => 5
+10 / 5 # => 2.0
+```
+
+Whoa! Why did we get a float when we divided 10 and 5, even though the solution is a whole number? That's just a Python quirk. In order to get an integer instead of a float when you divide numbers, just type two `/` signs instead of one.
+
+```python
+10 // 5 # => 2
+``` 
+
+Another thing Python can do much more easily than Javascript is find a number's square root. In Javascript, to find 3-squared, you would have to do this:
+
+`Math.pow(3, 2)`
+
+But in Python, it's super easy!
+
+`3**2`
 
 
 
