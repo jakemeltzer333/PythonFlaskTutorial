@@ -12,16 +12,45 @@ If you have a Mac, you should already have some version of Python installed on y
 
 To run Python in the console is very easy: just type `python3` and the Python interpreter will open up. Now we're ready to play around! 
 
+_To exit the interpreter/console, just type `ctrl D`_
+
 ### Data Types
 
-Python uses data types that are pretty much identical to Javascript: numbers, strings, and lists, which are basically Python's version of arrays. For example, this is a list:
+Python uses data types that are pretty much identical to Javascript: numbers, strings, and lists, which are basically Python's version of arrays. You can check for what sort of data you have by typing `type(data)` in the terminal, so `type(4)` would print `< class 'int' >` for integer.  
+
+#### Lists
+
+This is a list:
 
 ```python
 teachers = ['Ari', 'Dom', 'Drew', 'J', 'John', 'Ramsey']
 len(teachers)  # => 6
 ```
 
-That looks **A LOT** like a Javascript array!
+That looks **A LOT** like a Javascript array! You can even do similar some similar methods on them, but with slightly different syntax. For example, that `len()` method is Python's version of `.length`. You can also _slice_ in Python, but instead of writing `teachers.slice()`, you just write this:
+
+```python
+teachers[0:2] # => ['Ari', 'Dom']
+```
+
+Getting the last value of a list or a string is also extremely simple. 
+
+```python
+teachers[-1] # => 'Ramsey'
+'Ramsey'[-1] # => 'y'
+```
+
+As is adding or removing data.
+
+```python
+teachers.append('Cornelius')
+# ['Ari', 'Dom', 'Drew', 'J', 'John', 'Ramsey', 'Cornelius']
+
+teachers.remove('Ari')
+# ['Dom', 'Drew', 'J', 'John', 'Ramsey', 'Cornelius']
+```
+
+#### Numbers
 
 Python also has two types of numbers: _integers_ and _floats_. Integers are whole numbers while floats are numbers with decimals.
 
@@ -41,11 +70,17 @@ Whoa! Why did we get a float when we divided 10 and 5, even though the solution 
 
 Another thing Python can do much more easily than Javascript is find a number's square root. In Javascript, to find 3-squared, you would have to do this:
 
-`Math.pow(3, 2)`
+```python
+Math.pow(3, 2) # => 9
+```
 
 But in Python, it's super easy!
 
-`3**2`
+```python
+3**2 # => 9
+```
+
+### Loops and If Statements
 
 
 
