@@ -2,7 +2,7 @@
 
 Written By Jake Meltzer and Jason Rowland
 
-![Power of Python!](./assets/pythonbeatstiger.jpg)
+![Power of Python!](https://i.ytimg.com/vi/Gaj54O90Yak/maxresdefault.jpg)
 
 ## Python
 
