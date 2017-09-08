@@ -2,6 +2,8 @@
 
 Written By Jake Meltzer and Jason Rowland
 
+![Power of Python!](./assets/pythonbeatstiger.jpg)
+
 ## Python
 
 Python is one of the oldest programming languages still in use. Founded in 1991 by Dutch programmer Guido Van Rossum, Python is a powerful and easily readable general-purpose programming language that has many similarities to Javascript. Its longevity means it has been used to build many popular apps and programs, including Instagram and Dropbox, where Van Rossum currently works, and it's also used a lot at NASA because it is a popular language for helping to program robots!
