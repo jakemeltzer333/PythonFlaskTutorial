@@ -2,7 +2,7 @@
 
 Written By Jake Meltzer and Jason Rowland
 
-![Power of Python!](https://i.ytimg.com/vi/Gaj54O90Yak/maxresdefault.jpg)
+![Power of Python!](https://media.giphy.com/media/t48kZup19QOWs/source.gif)
 
 ## Python
 
