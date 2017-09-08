@@ -82,5 +82,53 @@ But in Python, it's super easy!
 
 ### Loops and If Statements
 
+Python, like Javascript, also has `for` loops and `if` statements. If you haven't noticed a theme by now, they're also easier to read in Python!
 
+You know what `for` loops in Javascript look like:
+
+```javascript
+for (let i = 0; i < teachers.length; i++) {
+    // YOUR CODE HERE
+}
+```
+
+It's almost funny how much easier they are to read in Python. It's basically English!
+
+```python
+for teacher in teachers:
+    # YOUR CODE HERE
+```
+
+Another cool thing you can do in Python loops is loop through a _range_ of elements, meaning you can choose where you want to start and end the loop and by how much you want to iterate through it. So if I wanted to get every 4th number between 0 and 20, I would just do this:
+
+```python
+for n in range(0, 20, 4)
+    print(n)
+    # 0, 4, 8, 12, 16
+```
+Notice how 20 is not printed. That's because in Python, the end number in a range is non-inclusive.
+
+Like `for` loops, `if` statements are very easy to read in Python:
+
+```python
+if x < 10:
+    print 'Young Buck!'
+else:
+    print 'Time to grow up!'
+```
+
+We can use our favorite Fizzbuzz `if` statement to demonstrate it even further and show how `else if` is written in Python:
+
+```python
+if x % 3 == 0 && x % 5 == 0
+    print 'FizzBuzz'
+elif x % 3 == 0
+    print 'Fizz'    
+elif x % 5 == 0
+    print 'Buzz'
+else
+    print x    
+```
+
+### Functions
 
