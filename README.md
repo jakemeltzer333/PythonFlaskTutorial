@@ -168,3 +168,50 @@ sayHi('Jake')
 ```
 
 Notice the `f` in front of the string? That's how Python does string interpolation.
+
+### Classes
+
+Classes in Python work a lot like they do in Ruby: they have an initializing method that creates an instance of that class, as you can see below.
+
+```python
+class Teacher:
+
+    def __init__(self)
+        self.name = 'Ari'
+        self.age = 24
+        self.cohort = 'Delorean'
+        self.specialty = 'Ruby'
+
+ari = Teacher()
+print(f'My name is {ari.name}')
+print(f'I am {ari.age} years old')
+print(f'My cohort is {ari.cohort}')
+print(f'My strongest programming language is {ari.speciality}')        
+```
+
+We can also attach methods onto a class exactly like in Ruby:
+
+```python
+# class Teacher:
+# ...
+def teacher_intro(self)
+    return f'Hi, my name is {self.name}, I am {self.age} years old, and I love {self.speciality}!'
+
+# ...
+
+print(ari.teacher_intro)    
+```
+
+Of course, classes in Python can also be inherited, and are written out in the following pattern:
+
+```python
+    DerivedClassName(BaseClassName):
+```
+
+Conveniently, Python has two built in class functions that work with inheritance. From the Python docs:
+
+```
+Use isinstance() to check an instance’s type: isinstance(obj, int) will be True only if obj.__class__ is int or some class derived from int.
+
+Use issubclass() to check class inheritance: issubclass(bool, int) is True since bool is a subclass of int. However, issubclass(float, int) is False since float is not a subclass of int.
+```
