@@ -35,7 +35,7 @@ That looks **A LOT** like a Javascript array! You can even do similar some simil
 teachers[0:2] # => ['Ari', 'Dom']
 ```
 
-Getting the last value of a list or a string is also extremely simple.
+Getting the last value of a list or a string is also extremely simple. 
 
 ```python
 teachers[-1] # => 'Ramsey'
