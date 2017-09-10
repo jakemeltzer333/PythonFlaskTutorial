@@ -35,7 +35,7 @@ That looks **A LOT** like a Javascript array! You can even do similar some simil
 teachers[0:2] # => ['Ari', 'Dom']
 ```
 
-Getting the last value of a list or a string is also extremely simple.
+Getting the last value of a list or a string is also extremely simple. 
 
 ```python
 teachers[-1] # => 'Ramsey'
@@ -248,7 +248,9 @@ Python has [fantastic docs](https://docs.python.org/3/tutorial/index.html) that 
 
 Python also has several frameworks on which to make even more cool programs in Python, and we're going to explore one of them here: Flask!
 
+
 [Python and Flask](https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/46941709/original/d5ace87ba59d0d4e5151668e60e8eaf673153ff7.jpg)
+
 ## Flask
 
 Flask is a Python frame work for building web applications. Django is more commonly used and offers more out of the box, but Flask is light weight and easy for beginners to pick up.
