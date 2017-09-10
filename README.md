@@ -246,6 +246,7 @@ Python has [fantastic docs](https://docs.python.org/3/tutorial/index.html) that 
 
 [Python Video Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK) (The instructor is working on a PC, but a lot of the basic tools still translate to Macs.)
 
+[Huge List of Python Packages/Frameworks](https://pypi.python.org/pypi?%3Aaction=browse)
 
 Python also has several frameworks on which to make even more cool programs in Python, and we're going to explore one of them here: Flask!
 
